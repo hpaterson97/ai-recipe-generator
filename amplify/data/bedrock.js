@@ -13,6 +13,7 @@ export function request(ctx) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
+          anthropic_version: "bedrock-2023-05-31",
           max_tokens: 1000,
           messages: [
             {
