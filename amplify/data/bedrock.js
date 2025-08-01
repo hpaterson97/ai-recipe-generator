@@ -6,7 +6,7 @@ export function request(ctx) {
   
     // Return the request configuration
     return {
-      resourcePath: `/model/amazon.nova-lite-v1:0`,
+      resourcePath: `/model/anthropic.claude-3-sonnet-20240229-v1:0`,
       method: "POST",
       params: {
         headers: {
